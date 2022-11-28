@@ -1,0 +1,11 @@
+project_id                = "my-project"
+instance_id               = "my-instance"
+instance_config           = "regional-australia-southeast1"
+instance_processing_units = 100
+database_id               = "my-database"
+credentials_file          = "secrets/key.json"
+region                    = "australia-southeast1"
+zone                      = "australia-southeast1-a"
+gke_num_nodes             = 1
+iam_service_account_id    = "app-service-account"
+k8s_service_account_id    = "k8s-service-account"
